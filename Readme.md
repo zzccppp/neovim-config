@@ -8,23 +8,23 @@ And now it is can used on mainstream Linux distributions and windows, all depend
 
 I suggest you to use neovide, a neovim client, which is written in rust (supports gpu acceleration), and my configuration already includes the configuration of neovide
 
-![home](https://github.com/jinzhongjia/neovim-config/blob/lsp/.img/home.png)
+![home](https://github.com/jinzhongjia/neovim-config/blob/main/.img/home.png)
 
-![file_browser](https://github.com/jinzhongjia/neovim-config/blob/lsp/.img/file_browser.png)
+![file_browser](https://github.com/jinzhongjia/neovim-config/blob/main/.img/file_browser.png)
 
-![file_find](https://github.com/jinzhongjia/neovim-config/blob/lsp/.img/file_find.png)
+![file_find](https://github.com/jinzhongjia/neovim-config/blob/main/.img/file_find.png)
 
-![file_find_grep](https://github.com/jinzhongjia/neovim-config/blob/lsp/.img/file_find_grep.png)
+![file_find_grep](https://github.com/jinzhongjia/neovim-config/blob/main/.img/file_find_grep.png)
 
-![floaterm1](https://github.com/jinzhongjia/neovim-config/blob/lsp/.img/floaterm1.png)
+![floaterm1](https://github.com/jinzhongjia/neovim-config/blob/main/.img/floaterm1.png)
 
-![floaterm_lazygit](https://github.com/jinzhongjia/neovim-config/blob/lsp/.img/floaterm_lazygit.png)
+![floaterm_lazygit](https://github.com/jinzhongjia/neovim-config/blob/main/.img/floaterm_lazygit.png)
 
-![debug_with_dap](https://github.com/jinzhongjia/neovim-config/blob/lsp/.img/debug_with_dap.png)
+![debug_with_dap](https://github.com/jinzhongjia/neovim-config/blob/main/.img/debug_with_dap.png)
 
-![mason](https://github.com/jinzhongjia/neovim-config/blob/lsp/.img/mason.png)
+![mason](https://github.com/jinzhongjia/neovim-config/blob/main/.img/mason.png)
 
-![symbols_outlines](https://github.com/jinzhongjia/neovim-config/blob/lsp/.img/symbols_outlines.png)
+![symbols_outlines](https://github.com/jinzhongjia/neovim-config/blob/main/.img/symbols_outlines.png)
 
 ## dependencies
 
