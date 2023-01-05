@@ -2,8 +2,6 @@
 
 This is a NEOVIM configuration for the minimum plugins, and 100% lua!
 
-The difference with branch `main` is the number of plugins is smallest.
-
 And now it is can used on mainstream Linux distributions and windows, all dependencies are modularized, you can easily use it on your computer after installing required external dependencies
 
 I suggest you to use neovide, a neovim client, which is written in rust (supports gpu acceleration), and my configuration already includes the configuration of neovide
