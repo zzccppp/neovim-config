@@ -58,6 +58,7 @@ null_ls.setup({
 				"null-ls-info",
 			},
 		}),
+		null_ls.builtins.formatting.zigfmt,
 		require("typescript.extensions.null-ls.code-actions"),
 	},
 	-- save auto format

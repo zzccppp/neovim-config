@@ -59,6 +59,7 @@ local list = {
     { "isort", { formatting } },
     { "vint", { diagnostics } },
     { "rustfmt", { formatting } },
+    -- { "cspell", { diagnostics, code_action } },
 }
 
 return list
