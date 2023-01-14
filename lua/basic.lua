@@ -35,7 +35,7 @@ vim.o.smartindent = true
 vim.o.ignorecase = true
 vim.o.smartcase = true
 -- Search do not highlight
-vim.o.hlsearch = true
+vim.o.hlsearch = false
 -- Search as you type
 vim.o.incsearch = true
 -- The command line height is 2, providing enough display space
