@@ -165,7 +165,7 @@ lazy.setup({
 
 	-- lspsaga
 	{
-		"jinzhongjia/lspsaga.nvim",
+		"glepnir/lspsaga.nvim",
 		branch = "main",
 		event = "VeryLazy",
 		config = function()
