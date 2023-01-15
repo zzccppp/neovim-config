@@ -20,7 +20,7 @@ M.mapLSP = function(mapbuf)
 	mapbuf("n", "gj", "<cmd>lua vim.diagnostic.goto_next()<CR>", opt)
 	mapbuf("n", "<leader>f", "<cmd>lua vim.lsp.buf.format()<CR>", opt)
 	-- mapbuf("n", "<C-k>", "<cmd>lua vim.lsp.buf.signature_help()<CR>", opt)
-	mapbuf('n', '<space>D', '<cmd>lua vim.lsp.buf.type_definition()<CR>', opt)
+	mapbuf("n", "<space>D", "<cmd>lua vim.lsp.buf.type_definition()<CR>", opt)
 end
 
 return M

@@ -55,6 +55,7 @@ local list = {
 	{ "vint", { diagnostics } },
 	{ "rustfmt", { formatting } },
 	-- { "cspell", { diagnostics, code_action } },
+	{ "phpcbf", { formatting } },
 }
 
 return list

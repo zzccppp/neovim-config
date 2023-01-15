@@ -31,6 +31,7 @@ local list = {
 	-- { name = "nimls", alone = false },
 	-- { name = "ocamllsp", alone = false },
 	{ name = "zls", alone = false },
+	-- { name = "intelephense", alone = false },
 }
 
 return list

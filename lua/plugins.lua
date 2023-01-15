@@ -65,7 +65,7 @@ require("lazy").setup({
 			"nvim-tree/nvim-web-devicons",
 			-- "arkav/lualine-lsp-progress",
 		},
-		event = "VimEnter",
+		event = "BufEnter",
 		config = function()
 			require("plugin-config.lualine")
 		end,
@@ -76,7 +76,7 @@ require("lazy").setup({
 			"nvim-tree/nvim-web-devicons",
 			"moll/vim-bbye",
 		},
-		event = "VimEnter",
+		event = "BufEnter",
 		config = function()
 			require("plugin-config.bufferline")
 		end,
@@ -84,7 +84,7 @@ require("lazy").setup({
 	{
 		"goolord/alpha-nvim",
 		dependencies = { "nvim-tree/nvim-web-devicons" },
-		event = "VimEnter",
+		event = "BufEnter",
 		config = function()
 			require("plugin-config.alpha")
 		end,

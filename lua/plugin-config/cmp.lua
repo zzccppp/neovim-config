@@ -178,7 +178,7 @@ cmp.setup({
 
 		-- -- For snippy users.
 		-- { name = 'snippy' },
-	}, { { name = "buffer" } }),
+	}, { { name = "buffer" }, { name = "path" } }),
 
 	-- Shortcut settings
 	mapping = cmpMapping(cmp),
