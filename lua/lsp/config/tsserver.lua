@@ -31,7 +31,7 @@ typescript.setup({
 			end
 
 			-- Bind shortcut keys
-			require("lsp.keybinding").mapLSP(buf_set_keymap)
+			require("lsp.keybind").mapLSP(buf_set_keymap)
 		end,
 	},
 })

@@ -63,7 +63,7 @@ require("lazy").setup({
 		"nvim-lualine/lualine.nvim",
 		dependencies = {
 			"nvim-tree/nvim-web-devicons",
-			"arkav/lualine-lsp-progress",
+			-- "arkav/lualine-lsp-progress",
 		},
 		event = "VimEnter",
 		config = function()
@@ -180,10 +180,17 @@ require("lazy").setup({
 			"neovim/nvim-lspconfig",
 			"SmiteshP/nvim-navic",
 			"nvim-tree/nvim-web-devicons", -- optional dependency
-        },
-		config=function ()
+		},
+		config = function()
 			require("plugin-config.barbecue")
-		end
+		end,
+	},
+	{
+		"j-hui/fidget.nvim",
+		event = "VeryLazy",
+		config = function()
+			require("plugin-config.fidget")
+		end,
 	},
 	{
 		"voldikss/vim-floaterm",

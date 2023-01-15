@@ -33,7 +33,7 @@ telescope.setup({
 		find_files = {
 			-- Find files for skinning, supported parameters are: dropdown, cursor, ivy
 			-- theme = "dropdown",
-			hidden = true,
+			hidden = false,
 		},
 	},
 	extensions = {

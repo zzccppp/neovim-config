@@ -15,7 +15,7 @@ lualine.setup({
 	sections = {
 		lualine_c = {
 			"filename",
-			"lsp_progress",
+			-- "lsp_progress",
 		},
 		lualine_x = {
 			"filesize",
