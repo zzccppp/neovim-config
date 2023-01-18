@@ -203,6 +203,13 @@ require("lazy").setup({
 		end,
 	},
 	{
+		"zbirenbaum/neodim",
+		event = "VeryLazy",
+		config = function()
+			require("plugin-config.neodim")
+		end,
+	},
+	{
 		"voldikss/vim-floaterm",
 		event = "VeryLazy",
 	},
