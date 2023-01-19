@@ -209,6 +209,13 @@ require("lazy").setup({
 			require("plugin-config.neodim")
 		end,
 	},
+  {
+    "beauwilliams/focus.nvim",
+    event="VeryLazy",
+    config=function ()
+      require("plugin-config.focus")
+    end
+  },
 	{
 		"voldikss/vim-floaterm",
 		event = "VeryLazy",
