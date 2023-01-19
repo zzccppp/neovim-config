@@ -38,6 +38,10 @@ treesitter.setup({
 	autotag = {
 		enable = true,
 	},
+	context_commentstring = {
+		enable = true,
+		enable_autocmd = false,
+	},
 })
 
 vim.api.nvim_create_autocmd({ "BufEnter", "BufAdd", "BufNew", "BufNewFile", "BufWinEnter" }, {

@@ -28,6 +28,7 @@ require("lazy").setup({
 		dependencies = {
 			"p00f/nvim-ts-rainbow",
 			"windwp/nvim-ts-autotag",
+			"JoosepAlviste/nvim-ts-context-commentstring",
 		},
 		event = "VeryLazy",
 		build = function()
@@ -209,13 +210,13 @@ require("lazy").setup({
 			require("plugin-config.neodim")
 		end,
 	},
-  {
-    "beauwilliams/focus.nvim",
-    event="VeryLazy",
-    config=function ()
-      require("plugin-config.focus")
-    end
-  },
+	{
+		"beauwilliams/focus.nvim",
+		event = "VeryLazy",
+		config = function()
+			require("plugin-config.focus")
+		end,
+	},
 	{
 		"voldikss/vim-floaterm",
 		event = "VeryLazy",
