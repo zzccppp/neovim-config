@@ -218,6 +218,15 @@ require("lazy").setup({
 		end,
 	},
 	{
+		"toppair/peek.nvim",
+		event = "VeryLazy",
+		build = "deno task --quiet build:fast",
+		config = function()
+			require("plugin-config.peek")
+		end,
+		enabled = false,
+	},
+	{
 		"voldikss/vim-floaterm",
 		event = "VeryLazy",
 	},

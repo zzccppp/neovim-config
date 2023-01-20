@@ -49,6 +49,6 @@ telescope.setup({
 
 -- Telescope extensions
 telescope.load_extension("env")
--- telescope.load_extension("dap")
+telescope.load_extension("dap")
 telescope.load_extension("projects")
 telescope.load_extension("undo")
