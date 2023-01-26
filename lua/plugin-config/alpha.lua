@@ -82,8 +82,8 @@ local buttons = {
 	type = "group",
 	val = {
 		button("e", "  New file", "<cmd>ene <CR>"),
-		button("SPC f p", "  Find Project", "<cmd>Telescope projects <CR>"),
-		button("SPC f g", "  Edit Projects", "<cmd>edit ~/.local/share/nvim/project_nvim/project_history <CR>"),
+		button("SPC f p", "  Find Project", "<cmd>Telescope PS_manager <CR>"),
+		button("SPC f g", "  Edit Projects", "<cmd>edit ~/.local/share/nvim/PS_manager/project <CR>"),
 		button("SPC f m", "  Jump to bookmarks"),
 		button("SPC s l", "  Open last session"),
 		button("SPC f h", "  Recently opened files", "<cmd>Telescope oldfiles <CR>"),

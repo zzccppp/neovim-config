@@ -45,7 +45,7 @@ require("lazy").setup({
 			"nvim-lua/plenary.nvim",
 			"LinArcX/telescope-env.nvim",
 			"nvim-telescope/telescope-dap.nvim",
-			"ahmedkhalf/project.nvim",
+			-- "ahmedkhalf/project.nvim",
 			"debugloop/telescope-undo.nvim",
 		},
 		event = "VeryLazy",
@@ -54,10 +54,20 @@ require("lazy").setup({
 		end,
 	},
 	{
+    --  this is a good project plugin, but it still has too problems.
 		"ahmedkhalf/project.nvim",
 		event = "VeryLazy",
 		config = function()
 			require("plugin-config.project")
+		end,
+		enabled = false,
+	},
+	{
+		-- dir = "~/code/lua/PS_manager.nvim",
+		"jinzhongjia/PS_manager.nvim",
+		event = "VeryLazy",
+		config = function()
+			require("plugin-config.PS_manager")
 		end,
 	},
 	{
@@ -125,7 +135,10 @@ require("lazy").setup({
 			"mfussenegger/nvim-dap",
 			"jayp0521/mason-nvim-dap.nvim",
 			"theHamsta/nvim-dap-virtual-text",
-			"rcarriga/nvim-dap-ui",
+			{
+				"rcarriga/nvim-dap-ui",
+				commit = "6b6081ad244ae5aa1358775cc3c08502b04368f9",
+			},
 			"nvim-lua/plenary.nvim",
 			--- dap extensions
 			"leoluz/nvim-dap-go",
