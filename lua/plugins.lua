@@ -47,6 +47,10 @@ require("lazy").setup({
 			"nvim-telescope/telescope-dap.nvim",
 			-- "ahmedkhalf/project.nvim",
 			"debugloop/telescope-undo.nvim",
+			{
+				"nvim-telescope/telescope-fzf-native.nvim",
+				build = "cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build",
+			},
 		},
 		event = "VeryLazy",
 		config = function()
@@ -54,7 +58,7 @@ require("lazy").setup({
 		end,
 	},
 	{
-    --  this is a good project plugin, but it still has too problems.
+		--  this is a good project plugin, but it still has too problems.
 		"ahmedkhalf/project.nvim",
 		event = "VeryLazy",
 		config = function()
@@ -128,7 +132,10 @@ require("lazy").setup({
 	{
 		"williamboman/mason.nvim",
 		dependencies = {
-			"neovim/nvim-lspconfig",
+			{
+				"neovim/nvim-lspconfig",
+				-- tag = "v0.1.5",
+			},
 			"williamboman/mason-lspconfig.nvim",
 			"jose-elias-alvarez/null-ls.nvim",
 			"jayp0521/mason-null-ls.nvim",

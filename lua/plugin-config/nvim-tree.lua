@@ -11,6 +11,10 @@ nvim_tree.setup({
 	sync_root_with_cwd = true,
 	respect_buf_cwd = true,
 	sort_by = "case_sensitive",
+	update_focused_file = {
+		enable = true,
+		-- update_cwd = true,
+	},
 	view = {
 		adaptive_size = true,
 		hide_root_folder = false,
