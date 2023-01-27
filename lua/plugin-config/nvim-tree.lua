@@ -10,18 +10,29 @@ vim.g.loaded_netrwPlugin = 1
 nvim_tree.setup({
 	sync_root_with_cwd = true,
 	respect_buf_cwd = true,
-	update_cwd = true,
-	update_focused_file = {
-		enable = true,
-		update_cwd = true,
-	},
 	sort_by = "case_sensitive",
 	view = {
 		adaptive_size = true,
 		hide_root_folder = false,
 		mappings = {
 			list = {
-				{ key = "u", action = "dir_up" },
+				-- open file or dir
+				{ key = { "<CR>", "o", "<2-LeftMouse>" }, action = "edit" },
+				-- split windows open file
+				{ key = "v", action = "vsplit" },
+				{ key = "h", action = "split" },
+				-- show hidden file
+				{ key = "i", action = "toggle_custom" }, -- filters custom (node_modules)
+				{ key = ".", action = "toggle_dotfiles" }, -- Hide (dotfiles)
+				-- file handle
+				{ key = "<F5>", action = "refresh" },
+				{ key = "a", action = "create" },
+				{ key = "d", action = "remove" },
+				{ key = "r", action = "rename" },
+				{ key = "x", action = "cut" },
+				{ key = "c", action = "copy" },
+				{ key = "p", action = "paste" },
+				{ key = "s", action = "system_open" },
 			},
 		},
 	},
