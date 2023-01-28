@@ -45,7 +45,6 @@ require("lazy").setup({
 			"nvim-lua/plenary.nvim",
 			"LinArcX/telescope-env.nvim",
 			"nvim-telescope/telescope-dap.nvim",
-			-- "ahmedkhalf/project.nvim",
 			"debugloop/telescope-undo.nvim",
 			{
 				"nvim-telescope/telescope-fzf-native.nvim",
@@ -78,7 +77,6 @@ require("lazy").setup({
 		"nvim-lualine/lualine.nvim",
 		dependencies = {
 			"nvim-tree/nvim-web-devicons",
-			-- "arkav/lualine-lsp-progress",
 		},
 		event = "BufEnter",
 		config = function()
@@ -228,13 +226,6 @@ require("lazy").setup({
 		event = "VeryLazy",
 		config = function()
 			require("plugin-config.neodim")
-		end,
-	},
-	{
-		"beauwilliams/focus.nvim",
-		event = "VeryLazy",
-		config = function()
-			require("plugin-config.focus")
 		end,
 	},
 	{
