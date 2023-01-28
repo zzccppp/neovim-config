@@ -238,6 +238,14 @@ require("lazy").setup({
 		enabled = false,
 	},
 	{
+		"anuvyklack/windows.nvim",
+		event = "VeryLazy",
+		dependencies = "anuvyklack/middleclass",
+		config = function()
+			require("plugin-config.windows")
+		end,
+	},
+	{
 		"voldikss/vim-floaterm",
 		event = "VeryLazy",
 	},
