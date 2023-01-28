@@ -11,7 +11,7 @@ local list = {
 	{ name = "html", alone = false },
 	{ name = "jsonls", alone = false },
 	{ name = "rust_analyzer", alone = false },
-	{ name = "tsserver", alone = true },
+	-- { name = "tsserver", alone = true },
 	-- { name = "psalm", alone = false },
 	-- { name = "powershell_es", alone = false },
 	-- { name = "pyright", alone = false },
@@ -32,6 +32,7 @@ local list = {
 	-- { name = "ocamllsp", alone = false },
 	{ name = "zls", alone = false },
 	-- { name = "intelephense", alone = false },
+	{ name = "vtsls", alone = false },
 }
 
 return list

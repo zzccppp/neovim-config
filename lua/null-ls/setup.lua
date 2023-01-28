@@ -60,7 +60,7 @@ null_ls.setup({
 			},
 		}),
 		null_ls.builtins.formatting.zigfmt,
-		require("typescript.extensions.null-ls.code-actions"),
+		-- require("typescript.extensions.null-ls.code-actions"),
 	},
 	-- save auto format
 	-- on_attach = function(_)

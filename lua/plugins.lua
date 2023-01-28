@@ -150,7 +150,7 @@ require("lazy").setup({
 			"mxsdev/nvim-dap-vscode-js",
 			"mfussenegger/nvim-dap-python",
 			-- typescript plugin
-			"jose-elias-alvarez/typescript.nvim",
+			-- "jose-elias-alvarez/typescript.nvim",
 			-- neovim lua develop plugin
 			"folke/neodev.nvim",
 			---- JSON enhance
