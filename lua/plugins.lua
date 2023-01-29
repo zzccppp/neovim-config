@@ -246,6 +246,21 @@ require("lazy").setup({
 		end,
 	},
 	{
+		dir = "~/code/lua/LspUI.nvim",
+		-- "jinzhongjia/LspUI.nvim",
+		event = "VeryLazy",
+		config = function()
+			require("plugin-config.LspUI")
+		end,
+	},
+	{
+		"dnlhc/glance.nvim",
+		event = "VeryLazy",
+		config = function()
+			require("plugin-config.glance")
+		end,
+	},
+	{
 		"voldikss/vim-floaterm",
 		event = "VeryLazy",
 	},
