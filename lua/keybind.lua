@@ -72,7 +72,7 @@ map("i", "<C-s>", "<ESC>:w<CR>", opt)
 -- Configure Copy Shortcuts
 map("v", "<C-c>", '"+y', opt) -- copy
 map("v", "<C-x>", '"+d', opt) -- cut
-map("n", "<C-v>", '"+p', opt) -- paste from system clipboard
+-- map("n", "<C-v>", '"+p', opt) -- paste from system clipboard
 map("i", "<C-v>", '<ESC>"+pa', opt) -- paste from system clipboard
 
 --------------------------------
