@@ -116,3 +116,6 @@ map("n", "<leader>fg", ":FloatermNew lazygit <CR>", opt)
 
 -- nvim-tree
 map("n", "<A-m>", ":NvimTreeToggle<CR>", opt)
+
+-- aerial
+map("n", "<leader>a", "<cmd>AerialToggle!<CR>", opt)

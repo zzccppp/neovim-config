@@ -261,6 +261,13 @@ require("lazy").setup({
 		end,
 	},
 	{
+		"stevearc/aerial.nvim",
+		event = "VeryLazy",
+		config = function()
+			require("plugin-config.aerial")
+		end,
+	},
+	{
 		"voldikss/vim-floaterm",
 		event = "VeryLazy",
 	},
