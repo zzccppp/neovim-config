@@ -4,4 +4,11 @@ if not status then
 	return
 end
 
-LspUI.setup()
+LspUI.setup({
+	peek_definition = {
+		enable = false,
+	},
+	lightbulb = {
+		enable = true,
+	},
+})

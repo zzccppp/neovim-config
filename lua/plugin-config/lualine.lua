@@ -20,6 +20,12 @@ lualine.setup({
 		ignore_focus = {
 			"aerial",
 			"NvimTree",
+			"floaterm",
+			"Glance",
+			"Lspui_code_action",
+			"Lspui_rename",
+			"Lspui-diagnostic",
+			"",
 		},
 	},
 	extensions = {},
