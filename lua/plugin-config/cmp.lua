@@ -172,7 +172,7 @@ cmp.setup({
 		{ name = "vsnip" },
 
     -- for codeium
-		{ name = "codeium" },
+		-- { name = "codeium" },
 
 		-- treesitter
 		-- { name = "treesitter" },

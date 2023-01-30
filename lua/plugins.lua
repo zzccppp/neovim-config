@@ -267,7 +267,6 @@ require("lazy").setup({
 			require("plugin-config.aerial")
 		end,
 	},
-
 	{
 		"jcdickinson/codeium.nvim",
 		event = "VeryLazy",
@@ -278,6 +277,7 @@ require("lazy").setup({
 		config = function()
 			require("plugin-config.codeium")
 		end,
+		enabled = false,
 	},
 	{
 		"voldikss/vim-floaterm",
