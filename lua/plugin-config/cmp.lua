@@ -138,6 +138,17 @@ local cmpMapping = function(cmp)
 end
 
 cmp.setup({
+	window = {
+		completion = { -- rounded border; thin-style scrollbar
+			border = "rounded",
+			scrollbar = "║",
+		},
+		documentation = { -- no border; native-style scrollbar
+			border = "rounded",
+			scrollbar = "",
+			-- other options
+		},
+	},
 	-- Specify the snippet engine
 	snippet = {
 		expand = function(args)
