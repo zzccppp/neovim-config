@@ -171,6 +171,9 @@ cmp.setup({
 		-- For vsnip users.
 		{ name = "vsnip" },
 
+    -- for codeium
+		{ name = "codeium" },
+
 		-- treesitter
 		-- { name = "treesitter" },
 

@@ -267,6 +267,18 @@ require("lazy").setup({
 			require("plugin-config.aerial")
 		end,
 	},
+
+	{
+		"jcdickinson/codeium.nvim",
+		event = "VeryLazy",
+		dependencies = {
+			"nvim-lua/plenary.nvim",
+			"MunifTanjim/nui.nvim",
+		},
+		config = function()
+			require("plugin-config.codeium")
+		end,
+	},
 	{
 		"voldikss/vim-floaterm",
 		event = "VeryLazy",
