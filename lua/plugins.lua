@@ -288,6 +288,10 @@ require("lazy").setup({
 		event = "VeryLazy",
 		config = function() end,
 	},
+	{
+		"tpope/vim-fugitive",
+		event = "VeryLazy",
+	},
 
 	--------------------- colorschemes --------------------
 	{

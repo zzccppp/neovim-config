@@ -25,6 +25,7 @@ lualine.setup({
 			"Lspui_code_action",
 			"Lspui_rename",
 			"Lspui-diagnostic",
+			"fugitiveblame",
 			"",
 		},
 	},
