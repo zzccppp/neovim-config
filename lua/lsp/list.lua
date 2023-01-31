@@ -1,7 +1,7 @@
 local list = {
 	{ name = "sumneko_lua", alone = false },
 	{ name = "clangd", alone = false },
-	-- { name = "asm_lsp", alone =false },
+	{ name = "asm_lsp", alone =false },
 	{ name = "bashls", alone = false },
 	{ name = "cmake", alone = false },
 	{ name = "cssls", alone = false },
