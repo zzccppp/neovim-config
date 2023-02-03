@@ -133,6 +133,14 @@ require("lazy").setup({
 		end,
 	},
 	{
+		"neoclide/coc.nvim",
+		branch = "release",
+		event = "VeryLazy",
+		config = function()
+			require("coc-config")
+		end,
+	},
+	{
 		"voldikss/vim-floaterm",
 		event = "VeryLazy",
 	},

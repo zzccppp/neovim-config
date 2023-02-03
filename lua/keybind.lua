@@ -66,8 +66,8 @@ map("i", "<C-h>", "<ESC>I", opt)
 map("i", "<C-l>", "<ESC>A", opt)
 
 -- ctrl+s save
-map("n", "<C-s>", ":w<CR>", opt)
-map("i", "<C-s>", "<ESC>:w<CR>", opt)
+-- map("n", "<C-s>", ":w<CR>", opt)
+-- map("i", "<C-s>", "<ESC>:w<CR>", opt)
 
 -- Configure Copy Shortcuts
 map("v", "<C-c>", '"+y', opt) -- copy
