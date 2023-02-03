@@ -66,8 +66,8 @@ map("i", "<C-h>", "<ESC>I", opt)
 map("i", "<C-l>", "<ESC>A", opt)
 
 -- ctrl+s save
--- map("n", "<C-s>", ":w<CR>", opt)
--- map("i", "<C-s>", "<ESC>:w<CR>", opt)
+map("n", "<C-s>", ":w<CR>", opt)
+map("i", "<C-s>", "<ESC>:w<CR>", opt)
 
 -- Configure Copy Shortcuts
 map("v", "<C-c>", '"+y', opt) -- copy
@@ -91,17 +91,9 @@ map("n", "<leader>bj", ":BufferLineMoveNext<CR>", opt)
 map("n", "<leader>bk", ":BufferLineMovePrev<CR>", opt)
 map("n", "<leader>bc", ":BufferLinePickClose<CR>", opt)
 
--- Telescope
--- find files
-map("n", "<C-p>", ":Telescope find_files<CR>", opt)
--- Global search
-map("n", "<C-f>", ":Telescope live_grep<CR>", opt)
--- undo
-map("n", "<leader>u", ":Telescope undo<cr>", opt)
-
 -- translator
-map("n", "<leader>tl", ":TranslateW<CR>", opt)
-map("v", "<leader>tl", ":TranslateW<CR>", opt)
+map("n", "<leader>tl", "<Plug>(coc-translator-p)", opt)
+map("v", "<leader>tl", "<Plug>(coc-translator-pv)", opt)
 
 -- Floating terminal floaterm
 map("n", "<leader>ft", ":FloatermNew<CR>", opt)
