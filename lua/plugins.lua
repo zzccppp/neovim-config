@@ -118,13 +118,6 @@ require("lazy").setup({
 		end,
 	},
 	{
-		"lewis6991/gitsigns.nvim",
-		event = "VeryLazy",
-		config = function()
-			require("plugin-config.gitsigns")
-		end,
-	},
-	{
 		"anuvyklack/windows.nvim",
 		event = "VeryLazy",
 		dependencies = "anuvyklack/middleclass",
@@ -143,11 +136,6 @@ require("lazy").setup({
 	{
 		"voldikss/vim-floaterm",
 		event = "VeryLazy",
-	},
-	{
-		"voldikss/vim-translator",
-		event = "VeryLazy",
-		config = function() end,
 	},
 	{
 		"tpope/vim-fugitive",

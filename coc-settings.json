@@ -1,0 +1,16 @@
+{
+  "codeLens.enable": true,
+  "colors.enable": true,
+  "diagnostic.virtualText": true,
+  "links.highlight": true,
+  "list.alignColumns": true,
+  "list.floatPreview": true,
+  "snippet.highlight": true,
+  "coc.preferences.enableLinkedEditing": true,
+  "coc.preferences.extensionUpdateCheck": "daily",
+  "coc.preferences.silentAutoupdate": true,
+  "Lua.diagnostics.globals": ["vim"],
+  "sumneko-lua.enableNvimLuaDev": true,
+  "Lua.runtime.version": "LuaJIT",
+  "languageserver": {}
+}
