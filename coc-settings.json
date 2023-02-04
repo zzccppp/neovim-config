@@ -1,5 +1,9 @@
 {
   "codeLens.enable": true,
+  "semanticTokens.enable": true,
+  "links.enable": true,
+  "links.tooltip": true,
+  "coc.preferences.formatOnType": true,
   "colors.enable": true,
   "diagnostic.virtualText": true,
   "links.highlight": true,
@@ -12,16 +16,34 @@
   "Lua.diagnostics.globals": ["vim"],
   "sumneko-lua.enableNvimLuaDev": true,
   "Lua.runtime.version": "LuaJIT",
-  "coc.preferences.formatOnSave": true,
-  "explorer.icon.enableNerdfont": true,
+  "coc.preferences.formatOnSave": false,
+  "leetcode.language": "golang",
+  "pylsp.builtin.installExtrasArgs": ["all"],
+  "pylsp.builtin.enableInstallPylsIsort": true,
+  "pylsp.builtin.pylsIsortVersion": "0.2.2",
+  "pylsp.builtin.enableInstallPythonLspBlack": true,
+  "pylsp.builtin.pythonLspBlackVersion": "1.0.1",
+  "pylsp.builtin.enableInstallPylspMypy": true,
+  "pylsp.builtin.pylspMypyVersion": "0.5.2",
   "languageserver": {},
   "cSpell.userWords": [
     "Autoupdate",
+    "Isort",
+    "Mypy",
     "Nerdfont",
     "Nvim",
+    "Pyls",
+    "fout",
     "gonic",
+    "leetcode",
     "prac",
+    "pylsp",
+    "reget",
     "sumneko",
-    "vite"
-  ]
+    "ultisnips",
+    "unplugin",
+    "vite",
+    "vitejs"
+  ],
+  "snippets.ultisnips.pythonPrompt": true
 }

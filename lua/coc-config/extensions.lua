@@ -11,13 +11,13 @@ vim.g.coc_global_extensions = {
   "coc-sumneko-lua", -- for lua with sumneko-lua
   "coc-markdownlint", -- for markdown
   "coc-phpls", -- for php with intelephense
-  "coc-jedi", -- for python
-  "coc-rust-analyzer", -- for rust with rust-analyzer
+  "@yaegassy/coc-pylsp", -- for python
   "coc-sql", -- for
   "coc-zls", -- for zig
   "@yaegassy/coc-volar", -- for vue with volar
   "@yaegassy/coc-volar-tools", -- for separate feature of volar
   "coc-vimlsp", -- for vim
+  "coc-rust-analyzer", -- for rust
   -- The following are functional extensions
   "coc-git", -- for git
   "coc-highlight", -- for highlight
@@ -41,5 +41,4 @@ vim.g.coc_global_extensions = {
   "coc-calc", -- for calc
   "coc-typos", -- for Typos integration
   "coc-xmake", -- for xmake
-  "coc-tasks", -- for asynctaks
 }

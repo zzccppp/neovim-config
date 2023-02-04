@@ -1,12 +1,11 @@
 local keyset = vim.keymap.set
-local opts = { silent = true, noremap = true, expr = true, replace_keycodes = false }
 
 ---
 -- For diagnostic
 ---
 -- Use `:CocDiagnostics` to get all diagnostics of current buffer in location list
-keyset("n", "gj", "<Plug>(coc-diagnostic-prev)", { silent = true })
-keyset("n", "gk", "<Plug>(coc-diagnostic-next)", { silent = true })
+keyset("n", "gk", "<Plug>(coc-diagnostic-prev)", { silent = true })
+keyset("n", "gj", "<Plug>(coc-diagnostic-next)", { silent = true })
 
 ---
 -- For goto code navigation
@@ -42,8 +41,3 @@ end
 
 -- Use K to show documentation in preview window
 keyset("n", "K", show_docs, { silent = true })
-
-
----
---
----
