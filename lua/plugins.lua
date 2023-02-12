@@ -243,7 +243,6 @@ require("lazy").setup({
 	{
 		"catppuccin/nvim",
 		name = "catppuccin",
-		-- lazy=true,
 		config = function()
 			local status, catppuccin = pcall(require, "catppuccin")
 			if not status then
@@ -255,6 +254,16 @@ require("lazy").setup({
 				})
 			end
 			vim.cmd.colorscheme("catppuccin")
+		end,
+		enabled = false,
+	},
+	{
+		"sainnhe/gruvbox-material",
+		config = function()
+			vim.opt.background = "dark"
+			vim.g.gruvbox_material_background = "medium"
+			vim.g.gruvbox_material_better_performance = 1
+			vim.cmd.colorscheme("gruvbox-material")
 		end,
 	},
 }, lazy_config)
