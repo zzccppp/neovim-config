@@ -10,5 +10,9 @@ LspUI.setup({
 	},
 	lightbulb = {
 		enable = true,
+		icon = "",
+	},
+	code_action = {
+		icon = "",
 	},
 })
