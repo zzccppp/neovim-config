@@ -1,5 +1,5 @@
 local list = {
-	-- { name = "lua_ls", alone = false },
+	{ name = "lua_ls", alone = false },
 	{ name = "clangd", alone = false },
 	{ name = "asm_lsp", alone = false },
 	{ name = "bashls", alone = false },
