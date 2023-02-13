@@ -255,7 +255,7 @@ require("lazy").setup({
 			end
 			vim.cmd.colorscheme("catppuccin")
 		end,
-		enabled = false,
+		-- enabled = false,
 	},
 	{
 		"sainnhe/gruvbox-material",
@@ -265,5 +265,6 @@ require("lazy").setup({
 			vim.g.gruvbox_material_better_performance = 1
 			vim.cmd.colorscheme("gruvbox-material")
 		end,
+		enabled = false,
 	},
 }, lazy_config)
