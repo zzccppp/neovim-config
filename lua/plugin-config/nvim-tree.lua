@@ -26,8 +26,8 @@ nvim_tree.setup({
 				{ key = "v", action = "vsplit" },
 				{ key = "h", action = "split" },
 				-- show hidden file
-				{ key = "i", action = "toggle_custom" }, -- filters custom (node_modules)
-				{ key = ".", action = "toggle_dotfiles" }, -- Hide (dotfiles)
+				-- { key = "i", action = "toggle_custom" }, -- filters custom (node_modules)
+				-- { key = ".", action = "toggle_dotfiles" }, -- Hide (dotfiles)
 				-- file handle
 				{ key = "<F5>", action = "refresh" },
 				{ key = "a", action = "create" },
