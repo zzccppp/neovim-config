@@ -16,3 +16,4 @@ mason.setup({
 
 require("plugin-config.mason.lsp")
 require("plugin-config.mason.null-ls")
+require("plugin-config.mason.dap")

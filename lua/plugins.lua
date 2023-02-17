@@ -111,6 +111,15 @@ require("lazy").setup({
 			"b0o/schemastore.nvim",
 			---- For lua
 			"folke/neodev.nvim",
+			---- For dap
+			"mfussenegger/nvim-dap",
+			"rcarriga/nvim-dap-ui",
+			"jayp0521/mason-nvim-dap.nvim",
+			"theHamsta/nvim-dap-virtual-text",
+			--- dap extensions
+			"leoluz/nvim-dap-go",
+			"mxsdev/nvim-dap-vscode-js",
+			"mfussenegger/nvim-dap-python",
 		},
 		event = "VeryLazy",
 		config = function()
