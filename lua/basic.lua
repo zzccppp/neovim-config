@@ -88,7 +88,6 @@ vim.o.foldlevel = 99 -- Using ufo provider need a large value, feel free to decr
 vim.o.foldlevelstart = 99
 vim.o.foldenable = true
 
-
 ------- Here is basical icon replace -------
 vim.diagnostic.config({
 	virtual_text = true,
@@ -102,3 +101,6 @@ for type, icon in pairs(signs) do
 	vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = hl })
 end
 ------- Here is basical icon replace -------
+
+-- some setting for specific language
+vim.g.zig_fmt_autosave = false
