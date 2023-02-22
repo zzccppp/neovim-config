@@ -33,6 +33,7 @@ local list = {
 	{ name = "zls", alone = false },
 	-- { name = "intelephense", alone = false },
 	{ name = "vtsls", alone = false },
+	{ name = "unocss", alone = false },
 }
 
 return list
