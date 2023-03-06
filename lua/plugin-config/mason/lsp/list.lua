@@ -7,7 +7,7 @@ local list = {
 	{ name = "cssls", alone = false },
 	{ name = "dockerls", alone = false },
 	{ name = "emmet_ls", alone = false },
-	{ name = "gopls", alone = false },
+	-- { name = "gopls", alone = false },
 	{ name = "html", alone = false },
 	{ name = "jsonls", alone = false },
 	{ name = "rust_analyzer", alone = false },
@@ -17,7 +17,7 @@ local list = {
 	-- { name = "pyright", alone = false },
 	{ name = "jedi_language_server", alone = false },
 	-- { name = "pylsp", alone = false },
-	{ name = "sqls", alone = false }, -- need extra yaml configuration
+	-- { name = "sqls", alone = false }, -- need extra yaml configuration
 	-- { name = "tailwindcss", alone = false },
 	{ name = "volar", alone = false }, -- Can be customized to override the default tsserver
 	{ name = "marksman", alone = false },

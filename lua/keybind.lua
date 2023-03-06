@@ -47,19 +47,19 @@ map("v", "J", ":move '>+1<CR>gv-gv", opt)
 map("v", "K", ":move '<-2<CR>gv-gv", opt)
 
 -- Scroll up and down
-map("n", "<C-j>", "3j", opt)
-map("n", "<C-k>", "3k", opt)
+map("n", "<C-j>", "6j", opt)
+map("n", "<C-k>", "6k", opt)
 -- Ctrl u / ctrl + d move only 9 lines, half screen by default
-map("n", "<C-u>", "7k", opt)
-map("n", "<C-d>", "7j", opt)
+-- map("n", "<C-u>", "7k", opt)
+-- map("n", "<C-d>", "7j", opt)
 
 -- Paste without copying in visual mode
 map("v", "p", '"_dP', opt)
 
 -- Exit
-map("n", "q", ":q<CR>", opt)
-map("n", "qq", ":q!<CR>", opt)
-map("n", "Q", ":qa!<CR>", opt)
+-- map("n", "q", ":q<CR>", opt)
+-- map("n", "qq", ":q!<CR>", opt)
+-- map("n", "Q", ":qa!<CR>", opt)
 
 -- In insert mode, jump to the beginning of the line and the end of the line
 map("i", "<C-h>", "<ESC>I", opt)
@@ -67,6 +67,7 @@ map("i", "<C-l>", "<ESC>A", opt)
 
 -- ctrl+s save
 map("n", "<C-s>", ":w<CR>", opt)
+map("n", "<leader>w", ":w<CR>", opt)
 map("i", "<C-s>", "<ESC>:w<CR>", opt)
 
 -- Configure Copy Shortcuts
@@ -80,22 +81,22 @@ map("i", "<C-v>", '<ESC>"+pa', opt) -- paste from system clipboard
 
 -- bufferline keybind
 -- Left and right tab switching
-map("n", "<C-h>", ":BufferLineCyclePrev<CR>", opt)
-map("n", "<C-l>", ":BufferLineCycleNext<CR>", opt)
+map("n", "<leader>h", ":BufferLineCyclePrev<CR>", opt)
+map("n", "<leader>l", ":BufferLineCycleNext<CR>", opt)
 -- Close
 --"moll/vim-bbye"
 map("n", "<C-w>", ":Bdelete!<CR>", opt)
-map("n", "<leader>bl", ":BufferLineCloseRight<CR>", opt)
-map("n", "<leader>bh", ":BufferLineCloseLeft<CR>", opt)
+map("n", "cr", ":BufferLineCloseRight<CR>", opt)
+map("n", "cl", ":BufferLineCloseLeft<CR>", opt)
 map("n", "<leader>bj", ":BufferLineMoveNext<CR>", opt)
 map("n", "<leader>bk", ":BufferLineMovePrev<CR>", opt)
 map("n", "<leader>bc", ":BufferLinePickClose<CR>", opt)
 
 -- Telescope
 -- find files
-map("n", "<C-p>", ":Telescope find_files<CR>", opt)
+map("n", "ff", ":Telescope find_files<CR>", opt)
 -- Global search
-map("n", "<C-f>", ":Telescope live_grep<CR>", opt)
+map("n", "fg", ":Telescope live_grep<CR>", opt)
 -- workspace_diagnostics
 map("n", "<leader>wd", ":Telescope diagnostics<CR>", opt)
 -- undo

@@ -4,10 +4,6 @@ local list = {
 		alone = true,
 	},
 	{
-		name = "delve",
-		alone = true,
-	},
-	{
 		name = "cppdbg",
 		alone = false,
 	},
