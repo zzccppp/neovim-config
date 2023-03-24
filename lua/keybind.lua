@@ -37,6 +37,7 @@ map("n", "s=", "<C-w>=", opt)
 map("n", "<leader>t", ":sp | terminal<CR>", opt)
 map("n", "<leader>vt", ":vsp | terminal<CR>", opt)
 map("t", "<A-s>", "<C-\\><C-n>", opt)
+map("t", "<ESC>", "<C-\\><C-n>", opt)
 
 -- Indent code in visual mode
 map("v", "<", "<gv", opt)
