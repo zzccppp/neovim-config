@@ -36,10 +36,11 @@ end
 -- list the debug dependence that must be installed
 mason_dap.setup({
 	ensure_installed = ensure_installed,
+  handlers=handlers,
 })
 
 -- setting for handle
-mason_dap.setup_handlers(handlers)
+-- mason_dap.setup_handlers(handlers)
 
 for _, ele in pairs(alones) do
 	require(ele)
