@@ -37,9 +37,10 @@ end
 
 mason_null_ls.setup({
 	ensure_installed = sources,
+  handlers=handlers,
 })
 
-mason_null_ls.setup_handlers(handlers)
+-- mason_null_ls.setup_handlers(handlers)
 
 null_ls.setup({
 	debug = false,

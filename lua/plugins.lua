@@ -26,7 +26,6 @@ require("lazy").setup({
 	{
 		"nvim-treesitter/nvim-treesitter",
 		dependencies = {
-			"mrjones2014/nvim-ts-rainbow",
 			"windwp/nvim-ts-autotag",
 			"JoosepAlviste/nvim-ts-context-commentstring",
 		},
@@ -114,7 +113,7 @@ require("lazy").setup({
 			---- For dap
 			"mfussenegger/nvim-dap",
 			"rcarriga/nvim-dap-ui",
-			"jayp0521/mason-nvim-dap.nvim",
+			{ "jayp0521/mason-nvim-dap.nvim", commit = "2b5f8a23d418e7efdf6dee569dd409bd1e807eae" },
 			"theHamsta/nvim-dap-virtual-text",
 			--- dap extensions
 			"leoluz/nvim-dap-go",

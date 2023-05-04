@@ -104,3 +104,6 @@ end
 
 -- some setting for specific language
 vim.g.zig_fmt_autosave = false
+
+vim.g.floaterm_width = 0.8
+vim.g.floaterm_height = 0.8
